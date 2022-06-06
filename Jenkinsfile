@@ -7,7 +7,7 @@ pipeline
                     script{
                         checkout([$class: 'GitSCM',branches: [[name: '*/master']] ],
                             userRemoteConfigs: [[
-                                credientialsId: '1000',
+                                credientialsId: 'dhia-lab1',
                                 url: 'https://github.com/mohameddhia/lab1.git'
                             ]])
                     }
