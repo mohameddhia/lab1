@@ -16,7 +16,7 @@ pipeline
             stage('Build'){
                 steps{
                     script{
-                        sh "sudo ansible-playbook Ansible/build.yml -i Ansbile/inventory/host.yml"
+                        sh "ansible-playbook Ansible/build.yml -i Ansbile/inventory/host.yml"
                     }
                 }
             }
