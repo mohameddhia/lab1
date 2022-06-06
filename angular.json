@@ -102,5 +102,7 @@
       }
     }
   },
-  "defaultProject": "devops"
+  "cli": {
+    "analytics": false
+  }
 }
