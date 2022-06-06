@@ -16,7 +16,7 @@ pipeline
             stage('Build'){
                 steps{
                     script{
-                       sudo sh "ansible-playbook Ansible/build.yml -i Ansbile/inventory/host.yml ansible_sudo_pass=Dhiaazerty"
+                        sh "ansible-playbook Ansible/build.yml -i Ansbile/inventory/host.yml ansible_sudo_pass=Dhiaazerty"
                     }
                 }
             }
